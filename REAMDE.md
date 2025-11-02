@@ -1,4 +1,4 @@
 ohtuvarasto
 
-![GHA workflow badge](https://github.com/niinaIsHere/ohtuvarasto/actions/workflows/CI/badge.svg)
+![GHA workflow badge](https://github.com/niinaIsHere/ohtuvarasto/actions/workflows/main.yml/badge.svg)
 
