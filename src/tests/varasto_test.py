@@ -15,7 +15,7 @@ class TestVarasto(unittest.TestCase):
 
     def test_alkusaldo_vahemman_kuin_tilavuus(self):
         alku_varasto = Varasto(4, 5)
-        self.assertEqual(1, 2)
+        self.assertEqual(alku_varasto.tilavuus, alku_varasto.saldo)
 
     def test_uudella_varastolla_oikea_tilavuus(self):
         self.assertAlmostEqual(self.varasto.tilavuus, 10)
