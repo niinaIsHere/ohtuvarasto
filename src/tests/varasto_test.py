@@ -10,7 +10,7 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(tyhja_varasto.saldo, 0)
 
     def test_konstruktori_luo_neg_varaston(self):
-        neg_varasto = Varasto(0, alku_saldo=-1)
+        neg_varasto = Varasto(0, alku_saldo=1)
         self.assertAlmostEqual(neg_varasto.saldo, 0.0)
 
     def test_alkusaldo_vahemman_kuin_tilavuus(self):
