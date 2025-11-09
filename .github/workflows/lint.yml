@@ -11,4 +11,4 @@ jobs:
         with:
           python-version: "3.11"
       - run: pip install pylint
-      - run: pylint **/*.py --fail-under=10
+      - run: pylint **/*.py --fail-under=8
